@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&subset=latin-ext');
+/*Lato Font*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&subset=cyrillic');
+/*Open Sans*/
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url("../fonts/Gotham\ Book\ Regular.otf") format("truetype");
+}
+
+/*Gotham Book font*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.MAINBOX {
+    overflow-x: hidden !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #111111;
+}
+
+div.logoText {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+div.navBar {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+div.navBar div ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+}
+
+div.navBar div ul li a {
+    font-family: "Lato", bold;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+}
+
+div.navBar div ul li a:hover {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+    transition: all 0.3s;
+}
+
+div.centerHeaderText {
+    font-family: "Open Sans", sans-serif;
+    font-size: 44px;
+    color: #999999;
+    margin-top: 200px;
+}
+
+span.centerHeaderTextAdd {
+    color: #fcac45;
+}
+
+div.centerSubHeaderText {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #999999;
+    margin-bottom: 270px;
+}
+
+span.centerSubHeaderTextAdd {
+    color: white;
+}
+
+div.buttonHeader {
+    padding-bottom: 80px;
+}
+
+div.about {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+div.rightSide {
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+}
+
+div.rightSideText1 {
+    font-size: 20px;
+    color: #636363;
+}
+
+div.rightSideText2 {
+    font-size: 34px;
+    color: #222222;
+}
+
+div.rightSideLine {
+    border: 2px solid #fcac45;
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+div.rightSideText3 {
+    font-size: 18px;
+    color: #939393;
+    margin-bottom: 45px;
+}
+
+div.rightSide div.aboutList ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #5a5a5a;
+    display: inline;
+    margin: 0;
+}
+
+div.rightSide div.aboutList ul li span {
+    color: #5a5a5a;
+    font-weight: 700;
+    font-style: normal;
+}
+
+div.rightSide div.aboutList ul li {
+    color: #5a5a5a;
+    font-weight: 400;
+    font-style: italic;
+}
+
+div.aboutButton {
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid #616161;
+    margin-top: 50px;
+    padding: 15px 20px;
+    color: #616161;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+div.justBlackBackground {
+    background-color: #070707;
+}
+
+div.teamPersons {
+    padding-bottom: 150px;
+}
+
+div.whiteOnBlackText {
+    font-family: "Open Sans", sans-serif;
+    font-size: 44px;
+    font-weight: 300;
+    color: #e9e9e9;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+
+div.whiteOnBlackText span {
+    font-weight: 600;
+    color: white;
+}
+
+div.yellowLine1 {
+    display: inline-block;
+    border: 2px solid #fcac45;
+    width: 100px;
+    margin-top: 25px;
+}
+
+div.yellowLine2 {
+    border: 2px solid #b37b33;
+    width: 65px;
+    margin-top: 10px;
+    margin-bottom: 85px;
+}
+
+img.teamPersonPhoto {
+    height: 128px;
+    width: 128px;
+    border-radius: 64px;
+}
+
+div.teamPersonName {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+div.teamPersonPost {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ababab;
+}
+
+div.teamPersonText {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ababab;
+}
+
+div.blackOnWhite {
+    font-family: "Open Sans", sans-serif;
+    font-size: 44px;
+    font-weight: 300;
+    color: #222222;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+
+div.blackOnWhite span {
+    font-weight: 600;
+    color: #222222;
+}
+
+div.servicesHeaderTest {
+    font-family: "Opes Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #6c6c6c;
+}
+
+div.servicesElement {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+div.servicesElements {
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.servicesElementPhoto {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 5px solid #fcac45;
+    border-radius: 50px;
+}
+
+div.servicesElementCaption {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+div.servicesElementText {
+    font-size: 14px;
+    color: #222222;
+    font-style: normal;
+}
+
+div.clientsElements {
+    padding-bottom: 150px;
+}
+
+img.clientsElement {
+    margin: 0 35px;
+}
+
+div.galleryHeader {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #6c6c6c;
+    margin-top: 115px;
+    margin-bottom: 55px;
+}
+
+div.galleryHeader div:first-child, div.galleryHeader div:last-child span a {
+    color: #222222;
+    font-weight: 700;
+}
+
+div.galleryHeader div:last-child a {
+    color: inherit;
+    font-size: inherit;
+}
+
+div.gallery {
+    margin-bottom: 100px;
+}
+
+div.eclipseElement {
+    display: none;
+    position: absolute;
+    top: 8px;
+    height: 237px;
+    width: 263px;
+    background-color: #222222;
+    transition: 5s;
+}
+
+div.galleryItem:hover div.eclipseElement {
+    display: block;
+}
+
+div.eclipseElement div {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 60px;
+}
+
+div.eclipseElement div div {
+    font-size: 14px;
+    color: #b2b2b2;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+div.testimonialsTextUp {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #e7e7e7;
+}
+
+div.testimonialsTextDown {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #b2b2b2;
+    font-weight: 300;
+    margin-top: 45px;
+}
+
+div.testimonialsTextDown span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #b2b2b2;
+    font-weight: 600;
+}
+
+div.testimonialsElements {
+    padding-bottom: 150px;
+}
+
+div.feedBack {
+    margin-top: 100px;
+}
+
+div.feedBackText {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #636363;
+    margin-top: 20px;
+}
+
+div.feedBackText span {
+    color: #db0000;
+}
+
+a.buttonSend {
+    text-decoration: none;
+}
+
+a.buttonSend div {
+    background-color: #fcac45;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+a.buttonSend div:hover {
+    background-color: #f59e2e;
+    transition: all 0.3s;
+}
+
+input.fullCont {
+    width: 100%;
+    height: 35px;
+    margin-top: 7px;
+    padding-left: 5px;
+}
+
+input.fullContainer {
+    width: 100%;
+    height: 160px;
+    padding-left: 5px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+
+div.footerSet {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+div.footerText {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    color: #b2b2b2;
+    text-transform: uppercase;
+}
+
+div.footerText span {
+    color: #808080;
+}
+
+div.footerSocials ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+div.footerSocials ul li {
+    margin: 0 5px;
+}
+
+div.footerSocials ul li:hover {
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+/* Slick Settings */
+
+.dotsSlck {
+    position: absolute;
+    display: block;
+    margin-top: 25px;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.dotsSlck li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.dotsSlck li button {
+    display: block;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.dotsSlck li button:hover, .dotsSlck li button:focus {
+    outline: none;
+}
+
+.dotsSlck li button:hover:before, .dotsSlck li button:focus:after {
+    opacity: 1;
+}
+
+.dotsSlck li button:before {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    content: url("../img/_slick/slick_button_active.png");
+    opacity: 0.25;
+}
+
+.dotsSlck li.slick-active button:before {
+    opacity: 1;
+}
